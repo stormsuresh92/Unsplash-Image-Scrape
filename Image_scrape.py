@@ -16,6 +16,5 @@ def get_images(url, folder):
             out = requests.get(urls)
             f.write(out.content)
             print('downloaded: ', titles)
-            
-
+ 
 get_images('https://unsplash.com/s/photos/rna', 'output')
